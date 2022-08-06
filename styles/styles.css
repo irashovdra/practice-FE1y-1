@@ -1,75 +1,10 @@
-/* селектор тегу  0001 */
-
-/* a {
-    color: blueviolet;
-} */
-
-/* селектор класу 0010 */
-
-/* .link {
-    color: blueviolet;
-} */
-
-/* селектор по id 0100 */
-
-/* #mainlink {
-    color: blue;
-} */
-
-body {
-    color: black;
-    font-size: 16px;
-    font-family: "Roboto";
-}
-
-a {
-   text-decoration: none;
-
-   margin-left: 50px;
-}
-
-.navigation {
-
-    vertical-align:middle
-}
-
-ul {
-    list-style: none;
-}
-
-.list-position {
-    text-align: center;
-    display: flex;
-}
-
-p {
-    font-size: 10px;
-    line-height: 1.4;
-}
-
-.title {
-    color: #913D88;
-    font-weight: 500;
-    font-size: 20px;
-}
-
-h2 {
-    font-size: 15px;
-}
-
 .item {
-    background-color: inherit;
-    text-transform:lowercase;
-}
-
-.item:hover {
-    color: orange;
-}
-
-.description {
-    text-indent: 20px;
-    word-spacing: 1px;
-    letter-spacing: 0.5em
+    font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+color: #7D7D7D;
 }
 
 
