@@ -2,18 +2,27 @@ body {
     font-family: 'Playfair Display';
     font-weight: 400;
     color: #626262;
+    padding-bottom: 66px;
 }
 
 ul {
     list-style: none;
+    margin: 0;
+    padding: 0;
     /* display: flex; */
 }
 
-li{
-    margin-right: 100px;
+/* HEADER  */
+.header-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 71px;
 }
 
-li:not:last-child{
+.header-item {
+    margin-right: 100px;
+}
+.header-item:last-child {
     margin-right: 100px;
 }
 
@@ -31,6 +40,35 @@ li:not:last-child{
 
 .link-header:focus {
     color:  #03A9F4;
+}
+
+/* MAIN  */
+
+.container {
+    width: 906px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 92px;
+}
+
+.cards-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-item {
+    width: 420px;
+    margin-right: 65px;
+    margin-bottom: 130px;
+}
+.card-item:nth-child(2n) {
+    margin-right: 0;
+}
+.card-item:last-child {
+    margin-bottom: 0;
+}
+.card-item:nth-child(5) {
+    margin-bottom: 0;
 }
 
 .card-image {
@@ -63,4 +101,8 @@ color: #B4AD9E;
     background-color: #fff;
     padding: 20px 48px;
     border-width: 1px;
+    margin-top: 90px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
